@@ -1,0 +1,154 @@
+/* font family */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Merriweather:wght@400;900&display=swap');
+
+/* common styles */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 1600px;
+    background-color: #ffffff;
+    font-family: 'Inter', sans-serif;
+    margin: 0 auto;
+}
+
+.container {
+    width: 1320px;
+    margin: 0 auto;
+}
+
+.btn {
+    color: #FFF;
+    /* text-align: center; */
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+
+/* header styles */
+
+.header_banner {
+    width: 100%;
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url("images/banner-image.png");
+    background-repeat: no-repeat;
+    border-radius: 16px;
+    margin-top: 50px;
+}
+
+.header_sub_heading {
+    color: #FFF;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-size: 32px;
+    font-weight: 400;
+    padding-top: 177px;
+    padding-bottom: 16px;
+}
+
+.header_main_heading {
+    color: #FFF;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 95px;
+    padding-bottom: 177px;
+}
+
+
+/* main styles */
+
+/* offer section styles */
+
+.offer_heading {
+    color: #F00;
+    text-align: center;
+    font-size: 88px;
+    font-weight: 700;
+    margin-top: 120px;
+    margin-bottom: 48px;
+}
+
+.offer_sub_title {
+    color: #F00;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.offer_main_title {
+    color: #070211;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: 16px;
+    margin-bottom: 48px;
+}
+
+.offer_img {
+    width: 802.9px;
+    height: 500px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 120px;
+}
+
+
+/* midnight party section styles */
+
+.midnight_party_banner {
+    width: 100%;
+    background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url("images/vectorrr.png");
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-between;
+}
+
+.midnight_party_heading {
+    color: #FFF;
+    font-family: 'Merriweather', serif;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 7.04px;
+    padding-top: 126px;
+    padding-left: 126px;
+    padding-bottom: 24px;
+}
+
+.midnight_party_para {
+    color: rgba(255, 255, 255, 0.80);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    padding-left: 126px;
+}
+
+.midnight_party_btn {
+    margin-left: 158px;
+    padding-top: 48px;
+    padding-bottom: 142px;
+}
+
+.midnight_party_banner_img img {
+    padding-top: 68px;
+    padding-right: 138px;
+}
+
+
+
+
+
+
+
+
+/* footer styles */
