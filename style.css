@@ -1,5 +1,3 @@
-/* font family */
-
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Merriweather:wght@400;900&display=swap');
 
 /* common styles */
@@ -24,7 +22,6 @@ body {
 
 .btn {
     color: #FFF;
-    /* text-align: center; */
     font-size: 20px;
     font-weight: 700;
     text-transform: uppercase;
@@ -335,6 +332,12 @@ body {
     justify-content: space-between;
 }
 
+.portfolio_images_main img:hover {
+    transform: scale(0.9);
+    transition: 0.3s;
+}
+
+
 
 /* subscribe section styles */
 
@@ -410,7 +413,6 @@ footer {
 
 .footer_top_content {
     display: flex;
-    justify-content: space-between;
     align-items: center;
     padding-top: 120px;
     padding-bottom: 50px;
@@ -422,13 +424,16 @@ footer {
     line-height: 40px;
 }
 
+.footer_top_content_right {
+    margin-left: 559px;
+}
+
 .footer_top_content_right .top,
 .footer_top_content_right .btm {
     display: flex;
     gap: 16px;
     align-items: end;
 }
-
 
 .footer_top_content_right img {
     width: 24px;
