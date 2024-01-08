@@ -398,3 +398,82 @@ body {
 
 
 /* footer styles */
+
+footer {
+    background: #070211;
+    color: #FFF;
+}
+
+.footer_section {
+    width: 100%;
+}
+
+.footer_top_content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 120px;
+    padding-bottom: 50px;
+}
+
+.footer_top_content_left p {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+.footer_top_content_right .top,
+.footer_top_content_right .btm {
+    display: flex;
+    gap: 16px;
+    align-items: end;
+}
+
+
+.footer_top_content_right img {
+    width: 24px;
+}
+
+.footer_top_content_right p {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+.footer_middle_content {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    padding-top: 48px;
+    padding-bottom: 48px;
+
+}
+
+.footer_middle_content img {
+    width: 64px;
+    cursor: pointer;
+}
+
+.footer_btm_content {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 120px;
+    padding-top: 50px;
+}
+
+.footer_btm_content p,
+.footer_btm_content button {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.footer_btm_content button {
+    color: #FFF;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.footer_hr_tag {
+    border: 1px solid rgba(255, 255, 255, 0.15);
+}
